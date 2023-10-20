@@ -1,4 +1,4 @@
-# Run automation tests with using TestNG On LambdaTest
+# Run GamesGlobal WebAutomation tests with using TestNG On LambdaTest
 
 ![image](https://user-images.githubusercontent.com/70570645/171934563-4806efd2-1154-494c-a01d-1def95657383.png)
 
@@ -22,9 +22,10 @@
 
 ## Table Of Contents
 * [Pre-requisites](#pre-requisites)
-* Cloning Repo and Installing Dependencies(#Cloning Repo and Installing Dependencies)
+* Cloning Repo and Installing Dependencies
 * Setting Up Your Authentication
-* 
+* To run the Tests:
+* Run Parallel Tests:
 
 # Pre-requisites:
 
@@ -70,12 +71,12 @@ Make sure you have your LambdaTest credentials with you to run test automation s
   ```
 
 ## To run the Tests:
-
+```bash
 mvn test -D suite=parallel.xml
-
 mvn test
+```
 
-# Run Parallel Tests:
+##   Run Parallel Tests:
 
 Here is an xml file location `src/test/java/parallel.xml` which would help you to run parallel test on different devices and browser at the same time.
 <?xml version="1.0" encoding="UTF-8"?>
